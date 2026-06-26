@@ -10,5 +10,5 @@ function start() {
 
     console.log('You Did A Thing!');
 
-    spawnPrimitive.plane;
+    spawnPrimitive.plane(new Vector3(0, 2, -1));
 }
